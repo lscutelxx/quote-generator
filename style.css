@@ -1,7 +1,35 @@
+@font-face {
+    font-family: 'Playfair';
+    src: url('./fonts/PlayfairDisplay-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair';
+    src: url('./fonts/PlayfairDisplay-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair';
+    src: url('./fonts/PlayfairDisplay-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Playfair';
+    src: url('./fonts/PlayfairDisplay-SemiBold.ttf');
+    font-style: normal;
+    font-weight: 600;
+}
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair', sans-serif;
     box-sizing: border-box;
 }
 
@@ -21,3 +49,4 @@ body {
     text-align: center;
     box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
 }
+
